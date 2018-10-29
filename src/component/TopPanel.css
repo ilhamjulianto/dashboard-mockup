@@ -1,27 +1,19 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: "Roboto", sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background-color: #F4F8F9 !important;
-  height:  100%;
-  width: 100%;
+.topbar {
+	top: 0;
+	margin-left: 95px;
+	width: 100%;
+	background-color: #FFFFFF;
+	border-bottom: 1px solid #E3E3E3;
+	overflow-y: hidden;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-}
-
 
 @font-face {
       font-family: 'fontello';
-      src: url('./component/font/fontello.eot?52780647');
-      src: url('./component/font/fontello.eot?52780647#iefix') format('embedded-opentype'),
-           url('./component/font/fontello.woff?52780647') format('woff'),
-           url('./component/font/fontello.ttf?52780647') format('truetype'),
-           url('./component/font/fontello.svg?52780647#fontello') format('svg');
+      src: url('./font/fontello.eot?52780647');
+      src: url('./font/fontello.eot?52780647#iefix') format('embedded-opentype'),
+           url('./font/fontello.woff?52780647') format('woff'),
+           url('./font/fontello.ttf?52780647') format('truetype'),
+           url('./font/fontello.svg?52780647#fontello') format('svg');
       font-weight: normal;
       font-style: normal;
     }
@@ -61,3 +53,7 @@ code {
       /* Uncomment for 3D effect */
       /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
     }
+
+.text-disable {
+	color: #B2B0B4;
+}
