@@ -1,0 +1,49 @@
+.rightsession {
+	background-color: #FFFFFF;
+	height: 100% !important;
+	overflow-x: hidden;
+	position: fixed;
+	overflow-y: inherit;
+	display: all;
+	transition: 0.3 ease-in-out;
+	-webkit-transition: 0.3 ease-in-out;
+	-moz-transition: 0.3 ease-in-out;
+	-o-transition: 0.3 ease-in-out;
+}
+
+@media(max-width: 1500px) {
+	.rightsession {
+		background-color: #FFFFFF;
+		height: 100% !important;
+		overflow-x: hidden;
+		position: relative !important;
+		display: all;
+	}
+}
+
+.bg-yellow {
+	background-color: #FFD012;
+}
+
+.text-disable {
+	opacity: 0.8;
+}
+
+.dot {
+	height: 10px;
+	width: 10px;
+	border-radius: 50%;
+	display: inline-block;
+}
+
+.dot-primary {
+	background-color: #3899FF !important;
+}
+
+.dot-danger {
+	background-color: #FF3841 !important;
+}
+
+.letter-spacing {
+	letter-spacing: .8px;
+}
