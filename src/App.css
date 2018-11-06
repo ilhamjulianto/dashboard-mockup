@@ -22,6 +22,21 @@
   color: #61dafb;
 }
 
+.sidenav {
+  animation: slideInRight 0.5s ease-in-out;
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+}
+
+@keyframes slideInRight {
+  0% {
+    left: -60px;
+  } 100% {
+    left: 60px;
+  }
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -33,19 +48,32 @@
 
 .sidenav {
     height: 100%; /* Full-height: remove this if you want "auto" height */
-    width: 95px; /* Set the width of the sidebar */
+    width: 60px; /* Set the width of the sidebar */
     position: fixed; /* Fixed Sidebar (stay in place on scroll) */
     z-index: 1; /* Stay on top */
     left: 0;
     background-color: #FFFFFF;
     overflow-x: hidden; /* Disable horizontal scroll */
     border-right: 1px solid #E3E3E3;
+    transition: 0.3s ease-in-out;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+    animation: wuswus 1.5s ease-in;
+}
+
+@keyframes wuswus {
+  0% {
+    left: -60px;
+  } 100% {
+    left: 0;
+  }
 }
 
 @media(min-width: 700px) {
   .sidenav {
       height: 100%; /* Full-height: remove this if you want "auto" height */
-      width: 95px; /* Set the width of the sidebar */
+      width: 60px; /* Set the width of the sidebar */
       position: fixed; /* Fixed Sidebar (stay in place on scroll) */
       z-index: 1; /* Stay on top */
       top: 0;
@@ -66,7 +94,7 @@
     left: 0;
     margin: 0 !important;
     box-shadow: 0px 0px 15px 0px rgb(56,153,255) !important;
-    width: 8px;
+    width: 5px;
     border-radius: 0px 15px 15px 0px;
     position: absolute;
     background-color: #007BFF;
@@ -90,7 +118,7 @@
     margin: 0 !important;
   }
   .sidenav {
-      height: 70px; /* Full-height: remove this if you want "auto" height */
+      height: 50px; /* Full-height: remove this if you want "auto" height */
       width: 100%; /* Set the width of the sidebar */
       position: fixed; /* Fixed Sidebar (stay in place on scroll) */
       z-index: 1; /* Stay on top */
@@ -126,7 +154,7 @@
   .active:before {
     content: "";
     width: 100% !important; 
-    height: 10px;
+    height: 5px;
     bottom: 0;
     right: 3px;
     margin: 0 !important;

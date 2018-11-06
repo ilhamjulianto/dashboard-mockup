@@ -10,46 +10,46 @@ export default class SideNav extends Component {
 	render() {
 		return (
 			<div>
-				<div className="wow slideInLeft sidenav">
-		            <div className="navbar-brand mx-lg-4 mx-md-3 mx-sm-4 mx-xs-3 px-lg-2 my-4">
+				<div className="sidenav">
+		            <div className="navbar-brand mx-lg-2 px-lg-2 mx-md-1 mx-sm-4 mx-xs-3 px-lg-1 my-3">
 		            <Link to="/">
 		            	<img className="img-fluid" src={require('../icon/logo.svg')} />
 		            </Link>
 		            </div>
-		            <div className="wow fadeInLeft menu text-primary text-center mt-md-4" data-wow-delay="0.6s">
+		            <div className="menu text-primary text-center mt-md-4">
 		            	<NavLink to="/database" activeClassName="active">
 			            	<Ink/>
-			            	<i class=" py-4 demo-icon icon-database fa-lg">&#xe80e;</i>
+			            	<i class=" py-3 demo-icon icon-database">&#xe80e;</i>
 		            	</NavLink>
 		            </div>
-		            <div className="wow fadeInLeft menu text-primary text-center" data-wow-delay="0.9s">
+		            <div className="menu text-primary text-center">
 		            	<NavLink to="/people" activeClassName="active">
 			            	<Ink/>
-			            	<i class=" py-4 demo-icon icon-male-fe fa-lg">&#xe80d;</i>
+			            	<i class=" py-3 demo-icon icon-male-fe">&#xe80d;</i>
 		            	</NavLink>
 		            </div>
-		            <div className="wow fadeInLeft menu text-primary text-center" data-wow-delay="1.2s">
+		            <div className="menu text-primary text-center">
 			            <NavLink to="/eventcalendar" activeClassName="active">
 				            <Ink/>
-				            <i class=" py-4 demo-icon icon-date fa-lg">&#xe807;</i>
+				            <i class=" py-3 demo-icon icon-date">&#xe807;</i>
 			            </NavLink>
 		            </div>
-		            <div className="wow fadeInLeft menu text-primary text-center" data-wow-delay="1.5s">
+		            <div className="menu text-primary text-center">
 			            <NavLink to="/document" activeClassName="active">
 			            	<Ink/>
-			            	<i class=" py-4 demo-icon icon-paper fa-lg">&#xe804;</i>
+			            	<i class=" py-3 demo-icon icon-paper">&#xe804;</i>
 			            </NavLink>
 		            </div>
-		            <div className="wow fadeInLeft menu text-primary text-center" data-wow-delay="1.8s">
+		            <div className="menu text-primary text-center">
 			           	<NavLink to="/chat" activeClassName="active">
 			            	<Ink/>
-			            	<i class=" py-4 demo-icon icon-chat fa-lg">&#xe805;</i>
+			            	<i class=" py-3 demo-icon icon-chat">&#xe805;</i>
 			            </NavLink>
 		            </div>
-		            <div className="wow fadeInLeft menu text-primary text-center" data-wow-delay="1.8s">
+		            <div className="menu text-primary text-center">
 			           	<NavLink to="/setting" activeClassName="active">
 			            	<Ink/>
-			            	<i class=" py-4 demo-icon icon-setting fa-lg">&#xe80a;</i>
+			            	<i class=" py-4 demo-icon icon-setting">&#xe80a;</i>
 			            </NavLink>
 		            </div>
 		          </div>

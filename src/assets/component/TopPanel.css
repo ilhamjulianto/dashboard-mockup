@@ -1,11 +1,16 @@
 .topbar {
 	top: 0;
-	margin-left: 95px;
+	margin-left: 60px;
 	width: 100%;
 	background-color: #FFFFFF;
 	border-bottom: 1px solid #E3E3E3;
 	overflow-y: hidden;
   transition: 0.3s ease-in-out;
+  font-size: 12px !important;
+}
+
+.topbar .btn {
+  font-size: 10px !important;
 }
 
 @media(min-width: 700px) {
@@ -16,6 +21,7 @@
 
 input {
   width: 100%;
+  font-size: 12px !important;
   transition: 0.3 ease-in-out;
   -webkit-transition: 0.3 ease-in-out;
   -moz-transition: 0.3 ease-in-out;
@@ -81,7 +87,7 @@ input {
   }
 
   input {
-    width: 80px;
+    width: 65px;
     transition: 0.3 ease-in-out;
     -webkit-transition: 0.3 ease-in-out;
     -moz-transition: 0.3 ease-in-out;
